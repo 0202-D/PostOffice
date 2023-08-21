@@ -16,7 +16,7 @@ import java.util.List;
 @Tag(name = "История отправления")
 @RequiredArgsConstructor
 @RequestMapping("/history")
-public class HistoryController {
+ public class HistoryController {
     private final HistoryService historyService;
 
     @GetMapping("/{id}")

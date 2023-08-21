@@ -10,9 +10,7 @@ services:
       POSTGRES_PASSWORD: postgres
   app:
     container_name: post_app
-    image: 'post_office'
-    build:
-      context: src/main/java/ru/skyeng
+    build: .
     ports:
       - "8090:8090"
     depends_on:
@@ -21,6 +19,7 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/post
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
+
 
 
 
