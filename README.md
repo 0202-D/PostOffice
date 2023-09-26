@@ -11,13 +11,14 @@
 
 2. Упаковать проект в Maven
 
-3. В терминале в корне приложения выполнить команду docker build ./
 
-4. Упаковать образ в контейнер командой docker-compose build
-
-5. Запустить контейнер командой docker-compose up
+3. В корне проекта запустить контейнеры командой docker-compose up
+4.  Покрытие тестами<br> ![coverage](https://github.com/0202-D/PostOffice/assets/77935565/cd9c2ba3-2c7c-4724-8022-c26f3cd57852)
 <br>
 <br>
 Ознакомиться и протестировать эндпоинты можно в Swagger . 
 Доступно по  :  
 <a href="http://localhost:8090/swagger-ui/index.html#">http://localhost:8090/swagger-ui/index.html#<a>
+<br>
+<br>
+
